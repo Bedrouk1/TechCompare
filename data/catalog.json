@@ -1,6 +1,7 @@
 [
   {
-    "category": "Languages",
+    "category": "Programming Languages",
+    "description": "Languages for applications, scripts, systems, and services.",
     "items": [
       "Python",
       "Java",
@@ -24,7 +25,8 @@
     ]
   },
   {
-    "category": "Frontend",
+    "category": "Frontend Frameworks",
+    "description": "Tools for building browser interfaces.",
     "items": [
       "React",
       "Vue",
@@ -38,7 +40,8 @@
     ]
   },
   {
-    "category": "Backend",
+    "category": "Backend Frameworks",
+    "description": "Frameworks for APIs, web services, and server-side apps.",
     "items": [
       "Django",
       "Flask",
@@ -52,7 +55,8 @@
     ]
   },
   {
-    "category": "AI & ML",
+    "category": "AI & Machine Learning",
+    "description": "Libraries and platforms for ML and AI applications.",
     "items": [
       "Scikit-learn",
       "PyTorch",
@@ -68,6 +72,7 @@
   },
   {
     "category": "ML Algorithms",
+    "description": "Methods for classification, regression, clustering, and other tasks.",
     "items": [
       "KNN",
       "SVM",
@@ -83,6 +88,7 @@
   },
   {
     "category": "Databases",
+    "description": "Systems for storing, querying, and managing application data.",
     "items": [
       "PostgreSQL",
       "MySQL",
@@ -97,6 +103,7 @@
   },
   {
     "category": "Data & Analytics",
+    "description": "Tools for processing, analyzing, and visualizing data.",
     "items": [
       "Pandas",
       "Polars",
@@ -110,6 +117,7 @@
   },
   {
     "category": "Developer Tools",
+    "description": "Editors, collaboration, debugging, and development utilities.",
     "items": [
       "Visual Studio Code",
       "PyCharm",
@@ -123,6 +131,7 @@
   },
   {
     "category": "DevOps & Cloud",
+    "description": "Infrastructure, deployment, automation, and cloud platforms.",
     "items": [
       "Docker",
       "Podman",
@@ -137,7 +146,8 @@
     ]
   },
   {
-    "category": "Mobile",
+    "category": "Mobile Development",
+    "description": "Frameworks and tools for mobile applications.",
     "items": [
       "Flutter",
       "React Native",
@@ -148,6 +158,7 @@
   },
   {
     "category": "Testing",
+    "description": "Tools for checking software behavior and reliability.",
     "items": [
       "pytest",
       "unittest",
@@ -159,6 +170,7 @@
   },
   {
     "category": "Architecture & APIs",
+    "description": "Patterns and API approaches for system design.",
     "items": [
       "REST",
       "GraphQL",
@@ -171,6 +183,7 @@
   },
   {
     "category": "Game Development",
+    "description": "Engines and tools for games and interactive experiences.",
     "items": [
       "Unity",
       "Unreal Engine",
@@ -180,6 +193,7 @@
   },
   {
     "category": "Operating Systems",
+    "description": "Platforms that manage hardware and run applications.",
     "items": [
       "Windows",
       "Linux",
@@ -190,6 +204,7 @@
   },
   {
     "category": "Package Managers",
+    "description": "Tools for installing and managing dependencies.",
     "items": [
       "pip",
       "uv",
@@ -203,6 +218,7 @@
   },
   {
     "category": "Build Tools",
+    "description": "Tools that compile, transform, and package projects.",
     "items": [
       "Webpack",
       "Vite",
@@ -213,6 +229,7 @@
   },
   {
     "category": "Code Quality & Security",
+    "description": "Tools for linting, formatting, analysis, and security.",
     "items": [
       "OWASP",
       "SonarQube",
@@ -224,6 +241,7 @@
   },
   {
     "category": "Emerging Technologies",
+    "description": "New and cross-disciplinary technologies.",
     "items": [
       "WebAssembly",
       "Blockchain",
@@ -233,6 +251,88 @@
       "OpenCV",
       "Electron",
       "Tauri"
+    ]
+  },
+  {
+    "category": "Automation",
+    "description": "Scripting and workflow automation tools.",
+    "items": [
+      "Python Scripts",
+      "PowerShell",
+      "Bash",
+      "Zapier",
+      "n8n",
+      "GitHub Actions"
+    ]
+  },
+  {
+    "category": "Web Servers & Hosting",
+    "description": "Software and platforms for serving websites and apps.",
+    "items": [
+      "Nginx",
+      "Apache HTTP Server",
+      "Caddy",
+      "Vercel",
+      "Netlify",
+      "Cloudflare Pages"
+    ]
+  },
+  {
+    "category": "Networking",
+    "description": "Protocols and tools for communication and infrastructure.",
+    "items": [
+      "HTTP",
+      "HTTPS",
+      "TCP",
+      "UDP",
+      "DNS",
+      "WebSocket",
+      "SSH"
+    ]
+  },
+  {
+    "category": "Monitoring & Observability",
+    "description": "Tools for logs, metrics, traces, and system health.",
+    "items": [
+      "Prometheus",
+      "Grafana",
+      "OpenTelemetry",
+      "ELK Stack",
+      "Sentry"
+    ]
+  },
+  {
+    "category": "AI Developer Tools",
+    "description": "AI-assisted coding and developer workflow tools.",
+    "items": [
+      "GitHub Copilot",
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Cursor",
+      "Continue"
+    ]
+  },
+  {
+    "category": "Design & UI Tools",
+    "description": "Interface design, prototyping, and design systems.",
+    "items": [
+      "Figma",
+      "Penpot",
+      "Adobe XD",
+      "Storybook"
+    ]
+  },
+  {
+    "category": "Hardware & Computing",
+    "description": "Processors and computing architectures.",
+    "items": [
+      "CPU",
+      "GPU",
+      "TPU",
+      "NPU",
+      "ARM",
+      "x86-64"
     ]
   }
 ]
