@@ -16,91 +16,89 @@
 
 ## Overview
 
-TechCompare aims to help developers and learners make more informed technology choices. Instead of limiting comparisons to programming languages, it covers a broad range of software and technology topics.
+TechCompare is a project exploring how developers and learners can make more informed technology choices. It aims to compare far more than programming languages: frameworks, libraries, AI/ML concepts, databases, developer tools, cloud services, architectures, and other technologies.
 
-Compare two or three items, browse categories, search the catalog, or enter a technology that is not listed.
+**The current version is a front-end prototype:** it lets you browse a starter catalog, search and filter technologies, and assemble a comparison workspace. It does not yet run AI research or provide verified benchmarks.
 
-> **Current status:** This is an early front-end prototype. It provides catalog discovery and a comparison workspace; it does not yet perform researched AI comparisons or produce verified benchmarks.
-
-## Areas covered
+## What you can explore
 
 - Programming languages
 - Frontend and backend frameworks
 - Artificial Intelligence and Machine Learning
 - ML algorithms
 - Databases and data tools
-- Developer tools
+- Developer tools and IDEs
 - Cloud and DevOps
 - Mobile development
-- Testing
+- Testing frameworks
 - Software architecture and APIs
 - Game development
 - Operating systems
 - Package managers and build tools
-- Code quality and security tools
+- Code quality and security
 - Emerging technologies
 
-## Current prototype features
+## Prototype features
 
-- Search and filter technology categories
-- Browse a starter catalog of technologies
-- Compare two or three entries in a workspace
-- Type custom technology names
-- Responsive interface for desktop and mobile
+- Browse technology categories
+- Search the catalog
+- Select two or three technologies for a comparison workspace
+- Enter custom technology names that are not in the catalog
+- Responsive layout for desktop and mobile
 - Dark interface
 
 ## Project structure
 
 ```
 TechCompare/
-├── index.html
-├── style.css
-├── app.js
+├── index.html          # Main page
+├── style.css           # UI styles
+├── app.js              # Interface behavior
 ├── data/
-│   └── catalog.json
+│   └── catalog.json    # Starter technology catalog
 └── README.md
 ```
 
 ## Run locally
 
-Because the app loads its catalog from JSON, run it with a local web server:
+The app loads its catalog from a JSON file, so use a local web server instead of opening `index.html` directly.
 
 1. Clone or download this repository.
-2. Open the project folder in VS Code.
-3. Start **Live Server** from `index.html`.
-4. Browse categories, search, select entries, and build a comparison workspace.
+2. Open the folder in Visual Studio Code.
+3. Start the **Live Server** extension from `index.html.
+4. Browse, search, select technologies, and explore the comparison workspace.
 
 ## Roadmap
 
 - [x] Initial responsive UI
 - [x] Broad technology categories and starter catalog
-- [x] Search and custom text entries
+- [x] Search and custom technology entries
 - [x] Two/three-item comparison workspace
-- [ ] Comparison criteria that adapt to each technology type
-- [ ] Backend service
-- [ ] AI-powered analysis of open-ended requests
-- [ ] Research using trustworthy sources and citations
-- [ ] Freshness/version information
-- [ ] Fair, reproducible benchmark support (where meaningful)
+- [ ] Comparison criteria adapted to each technology type
+- [ ] Backend/API
+- [ ] AI-powered analysis for open-ended requests
+- [ ] Research supported by reliable sources and citations
+- [ ] Version and information freshness indicators
+- [ ] Reproducible benchmarks where a fair benchmark is possible
 - [ ] Save, share, and export comparisons
-- [ ] User-defined comparison goals and constraints
+- [ ] User-defined goals and constraints
 
-## Principles
+## Project principles
 
-- Avoid simplistic “best technology” claims; recommendations should depend on the use case.
-- Clearly distinguish researched facts, subjective ratings, and measured benchmarks.
-- Show sources and dates for factual claims in the future AI-powered version.
-- Never invent benchmark results.
+- There is no universal “best” technology; the answer depends on the use case.
+- Separate sourced facts, opinions, and measured benchmarks.
+- In future research features, show sources and dates.
+- Do not invent benchmark results or unsupported claims.
 
 ## فارسی
 
-TechCompare یک پروژه برای بررسی و مقایسه گسترده فناوری‌های دنیای برنامه‌نویسی است؛ از زبان‌ها، فریم‌ورک‌ها و کتابخانه‌ها گرفته تا هوش مصنوعی، دیتابیس، ابزارهای توسعه، DevOps، معماری نرم‌افزار و موارد دیگر.
+TechCompare ایده‌ای برای بررسی و مقایسه گسترده فناوری‌های دنیای برنامه‌نویسی است؛ از زبان‌ها، فریم‌ورک‌ها و کتابخانه‌ها تا هوش مصنوعی، دیتابیس، ابزارهای توسعه، DevOps، معماری نرم‌افزار و موارد دیگر.
 
-نسخه فعلی یک پروتوتایپ رابط کاربری است. در نسخه‌های بعدی، موتور مقایسه، تحلیل هوش مصنوعی، منابع معتبر، مقایسه براساس نیاز پروژه و Benchmarkهای قابل تکرار به آن اضافه خواهند شد.
+نسخه فعلی یک نمونه اولیه رابط کاربری است و هنوز تحلیل هوش مصنوعی یا تحقیق مستند انجام نمی‌دهد. هدف نسخه‌های بعدی، مقایسه بر اساس نیاز واقعی کاربر، استفاده از منابع معتبر و ارائه اطلاعات به‌روز است.
 
 ## Contributing
 
-Suggestions, issue reports, and contributions are welcome. The catalog and comparison criteria will evolve as the project grows.
+Feedback, ideas, and issue reports are welcome. The catalog, comparison criteria, and project capabilities are intended to grow over time.
 
 ---
 
