@@ -1,0 +1,238 @@
+[
+  {
+    "category": "Languages",
+    "items": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "C",
+      "C++",
+      "C#",
+      "Go",
+      "Rust",
+      "Kotlin",
+      "Swift",
+      "PHP",
+      "Ruby",
+      "R",
+      "Scala",
+      "Dart",
+      "SQL",
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "category": "Frontend",
+    "items": [
+      "React",
+      "Vue",
+      "Angular",
+      "Svelte",
+      "Next.js",
+      "Nuxt",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Vite"
+    ]
+  },
+  {
+    "category": "Backend",
+    "items": [
+      "Django",
+      "Flask",
+      "FastAPI",
+      "Spring Boot",
+      "Express.js",
+      "NestJS",
+      "ASP.NET Core",
+      "Laravel",
+      "Ruby on Rails"
+    ]
+  },
+  {
+    "category": "AI & ML",
+    "items": [
+      "Scikit-learn",
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "XGBoost",
+      "LightGBM",
+      "Hugging Face Transformers",
+      "LangChain",
+      "LlamaIndex",
+      "Ollama"
+    ]
+  },
+  {
+    "category": "ML Algorithms",
+    "items": [
+      "KNN",
+      "SVM",
+      "Random Forest",
+      "Logistic Regression",
+      "Linear Regression",
+      "K-Means",
+      "DBSCAN",
+      "Decision Tree",
+      "Naive Bayes",
+      "Gradient Boosting"
+    ]
+  },
+  {
+    "category": "Databases",
+    "items": [
+      "PostgreSQL",
+      "MySQL",
+      "SQLite",
+      "MongoDB",
+      "Redis",
+      "Microsoft SQL Server",
+      "Oracle Database",
+      "Cassandra",
+      "Neo4j"
+    ]
+  },
+  {
+    "category": "Data & Analytics",
+    "items": [
+      "Pandas",
+      "Polars",
+      "NumPy",
+      "Apache Spark",
+      "Dask",
+      "Matplotlib",
+      "Plotly",
+      "Tableau"
+    ]
+  },
+  {
+    "category": "Developer Tools",
+    "items": [
+      "Visual Studio Code",
+      "PyCharm",
+      "IntelliJ IDEA",
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Jupyter Notebook",
+      "Postman"
+    ]
+  },
+  {
+    "category": "DevOps & Cloud",
+    "items": [
+      "Docker",
+      "Podman",
+      "Kubernetes",
+      "Terraform",
+      "Ansible",
+      "Jenkins",
+      "GitHub Actions",
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud"
+    ]
+  },
+  {
+    "category": "Mobile",
+    "items": [
+      "Flutter",
+      "React Native",
+      "Android Studio",
+      "SwiftUI",
+      "Jetpack Compose"
+    ]
+  },
+  {
+    "category": "Testing",
+    "items": [
+      "pytest",
+      "unittest",
+      "Jest",
+      "Vitest",
+      "Playwright",
+      "Selenium"
+    ]
+  },
+  {
+    "category": "Architecture & APIs",
+    "items": [
+      "REST",
+      "GraphQL",
+      "gRPC",
+      "Monolith",
+      "Microservices",
+      "Event-driven Architecture",
+      "MVC"
+    ]
+  },
+  {
+    "category": "Game Development",
+    "items": [
+      "Unity",
+      "Unreal Engine",
+      "Godot",
+      "Roblox Studio"
+    ]
+  },
+  {
+    "category": "Operating Systems",
+    "items": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "category": "Package Managers",
+    "items": [
+      "pip",
+      "uv",
+      "conda",
+      "npm",
+      "pnpm",
+      "yarn",
+      "Maven",
+      "Gradle"
+    ]
+  },
+  {
+    "category": "Build Tools",
+    "items": [
+      "Webpack",
+      "Vite",
+      "Rollup",
+      "esbuild",
+      "Babel"
+    ]
+  },
+  {
+    "category": "Code Quality & Security",
+    "items": [
+      "OWASP",
+      "SonarQube",
+      "ESLint",
+      "Prettier",
+      "Ruff",
+      "mypy"
+    ]
+  },
+  {
+    "category": "Emerging Technologies",
+    "items": [
+      "WebAssembly",
+      "Blockchain",
+      "IoT",
+      "AR",
+      "VR",
+      "OpenCV",
+      "Electron",
+      "Tauri"
+    ]
+  }
+]
