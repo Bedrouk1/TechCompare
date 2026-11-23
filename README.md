@@ -1,87 +1,111 @@
-<!--
-  PROJECT- | Starter repository
-  Replace the placeholders below as the project takes shape.
--->
-
 <div align="center">
 
-# ✦ PROJECT-
+# TechCompare
 
-### A clean space for building ideas
+### Explore, compare, and understand the technology ecosystem.
 
-<p>
-  <img src="https://img.shields.io/badge/STATUS-STARTER-06b6d4?style=for-the-badge" alt="Starter project" />
-  <img src="https://img.shields.io/badge/DOCUMENTATION-READY-8b5cf6?style=for-the-badge" alt="Documentation ready" />
-</p>
+**A technology comparison workspace for software development, AI/ML, data, cloud, tools, architecture, and more.**
 
-**From a first idea to a well-organized project.**
+![Status](https://img.shields.io/badge/status-prototype-orange)
+![Built with](https://img.shields.io/badge/built_with-HTML%20%7C%20CSS%20%7C%20JavaScript-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 </div>
 
 ---
 
-## 🇬🇧 English
+## Overview
 
-### About
+TechCompare aims to help developers and learners make more informed technology choices. Instead of limiting comparisons to programming languages, it covers a broad range of software and technology topics.
 
-This repository is currently an empty project starter. Use this README as the central place to document its purpose, setup, features, and future changes.
+Compare two or three items, browse categories, search the catalog, or enter a technology that is not listed.
 
-### Planned project details
+> **Current status:** This is an early front-end prototype. It provides catalog discovery and a comparison workspace; it does not yet perform researched AI comparisons or produce verified benchmarks.
 
-- **Purpose:** Add a short explanation of what this project will do.
-- **Technology:** List the languages, frameworks, and tools used.
-- **Status:** Initial setup.
-- **Next step:** Add the first source files and update this documentation.
+## Areas covered
 
-### Suggested structure
+- Programming languages
+- Frontend and backend frameworks
+- Artificial Intelligence and Machine Learning
+- ML algorithms
+- Databases and data tools
+- Developer tools
+- Cloud and DevOps
+- Mobile development
+- Testing
+- Software architecture and APIs
+- Game development
+- Operating systems
+- Package managers and build tools
+- Code quality and security tools
+- Emerging technologies
 
-Adapt this layout to the actual technology; do not create folders that the project does not need.
+## Current prototype features
 
-```text
-Project-/
-├── src/              # Main source code (when needed)
-├── assets/           # Images and other static resources
-├── docs/             # Project documentation
-├── tests/            # Automated tests (when applicable)
-└── README.md         # Project guide
+- Search and filter technology categories
+- Browse a starter catalog of technologies
+- Compare two or three entries in a workspace
+- Type custom technology names
+- Responsive interface for desktop and mobile
+- Dark interface
+
+## Project structure
+
+```
+TechCompare/
+├── index.html
+├── style.css
+├── app.js
+├── data/
+│   └── catalog.json
+└── README.md
 ```
 
-### Getting started
+## Run locally
 
-Project-specific installation and run instructions will be added after the application files are created.
+Because the app loads its catalog from JSON, run it with a local web server:
 
----
+1. Clone or download this repository.
+2. Open the project folder in VS Code.
+3. Start **Live Server** from `index.html`.
+4. Browse categories, search, select entries, and build a comparison workspace.
 
-## 🇮🇷 فارسی
+## Roadmap
 
-### معرفی
+- [x] Initial responsive UI
+- [x] Broad technology categories and starter catalog
+- [x] Search and custom text entries
+- [x] Two/three-item comparison workspace
+- [ ] Comparison criteria that adapt to each technology type
+- [ ] Backend service
+- [ ] AI-powered analysis of open-ended requests
+- [ ] Research using trustworthy sources and citations
+- [ ] Freshness/version information
+- [ ] Fair, reproducible benchmark support (where meaningful)
+- [ ] Save, share, and export comparisons
+- [ ] User-defined comparison goals and constraints
 
-این مخزن فعلاً یک فضای شروع برای پروژه است. این فایل README قرار است محل اصلی معرفی هدف، ابزارها، ساختار فایل‌ها و روش اجرای پروژه باشد.
+## Principles
 
-### اطلاعاتی که بعداً تکمیل می‌شوند
+- Avoid simplistic “best technology” claims; recommendations should depend on the use case.
+- Clearly distinguish researched facts, subjective ratings, and measured benchmarks.
+- Show sources and dates for factual claims in the future AI-powered version.
+- Never invent benchmark results.
 
-- **هدف:** توضیح کوتاه درباره کاری که پروژه انجام می‌دهد.
-- **فناوری‌ها:** زبان‌ها، فریم‌ورک‌ها و ابزارهای استفاده‌شده.
-- **وضعیت:** مرحله شروع و آماده‌سازی.
-- **قدم بعدی:** اضافه کردن فایل‌های اصلی و تکمیل راهنمای اجرا.
+## فارسی
 
-### ساختار پیشنهادی
+TechCompare یک پروژه برای بررسی و مقایسه گسترده فناوری‌های دنیای برنامه‌نویسی است؛ از زبان‌ها، فریم‌ورک‌ها و کتابخانه‌ها گرفته تا هوش مصنوعی، دیتابیس، ابزارهای توسعه، DevOps، معماری نرم‌افزار و موارد دیگر.
 
-ساختار زیر فقط یک الگو است؛ پوشه‌ها را بر اساس نیاز واقعی پروژه اضافه می‌کنیم.
+نسخه فعلی یک پروتوتایپ رابط کاربری است. در نسخه‌های بعدی، موتور مقایسه، تحلیل هوش مصنوعی، منابع معتبر، مقایسه براساس نیاز پروژه و Benchmarkهای قابل تکرار به آن اضافه خواهند شد.
 
-```text
-Project-/
-├── src/              # کدهای اصلی، در صورت نیاز
-├── assets/           # تصاویر و فایل‌های ثابت
-├── docs/             # مستندات پروژه
-├── tests/            # تست‌ها، در صورت نیاز
-└── README.md         # راهنمای پروژه
-```
+## Contributing
 
-**نکته:** تا زمانی که فایل‌های پروژه و هدف آن مشخص نشده‌اند، درباره امکانات یا روش اجرای آن ادعایی نمی‌کنیم.
+Suggestions, issue reports, and contributions are welcome. The catalog and comparison criteria will evolve as the project grows.
 
 ---
 
 <div align="center">
-<sub>PROJECT- · A thoughtful start to something useful.</sub>
+
+**Built as a learning project — evolving toward a useful technology decision tool.**
+
 </div>
